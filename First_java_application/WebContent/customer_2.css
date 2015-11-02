@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+body
+	    {
+	        background:url(background.jpg) no-repeat center center fixed;
+	        background-size: cover;
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        margin: 0;
+	        padding: 0;
+	    }
+	    
+	    .items{
+	    	color:solid-black;
+	    }
+	  #onion {
+	      width: 250px;
+	      height:13em;
+   		display:inline-block;
+    	border: 5px solid black;
+    margin: 25px;
+}
+img{
+	height:13em;
+	width: 250px;
+}
+input[type="checkbox"]{
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="text"]{
+	position:relative;
+	width:10em;
+	left:3em;	
+	
+}	

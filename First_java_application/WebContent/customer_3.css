@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+body
+	    {
+	        background:url(black.jpg) no-repeat center center fixed;
+	        background-size: cover;
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        margin: 0;
+	        padding: 0;
+	    }
+	    
+	    #form {
+	      width: 450px;
+	      height:26em;
+   		display:inline-block;
+    	border: 5px solid black;
+    margin-left: 33%;
+    margin-top:10%;
+    background-color:grey;
+}
+.login{
+	margin-left:16%;
+	display: block;
+	height:2em;
+	width:20em;
+	margin-bottom: 30px;
+	position:relative;
+	bottom:-5em;
+}
